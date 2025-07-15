@@ -1,6 +1,6 @@
 # 🚀 Single-Chip LLM for Embodied AI
 
-> **Run 7 B parameters on a single chip—no cloud, no fans, no problem.**  
+> **Run 32 B parameters on a single chip—no cloud, no fans, no problem.**  
 > Robotics • Autonomous Driving • Smart Cockpit • Embodied Intelligence
 
 ---
