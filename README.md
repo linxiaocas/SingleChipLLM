@@ -15,23 +15,6 @@
 
 ---
 
-## 🧩 Quick Start
-
-```bash
-# 1. Clone the core framework
-git clone https://github.com/SingleChipLLM/core.git
-cd core
-
-# 2. Fetch a 7 B INT4 model (~1.6 GB → 0.9 GB after quant)
-wget https://huggingface.co/SingleChipLLM/MobileLLM-7B-int4
-
-# 3. Build for your target
-./scripts/build.sh --target orin-nano --backend tensorrt
-```
-
-> 🔍 **First build will take ~5 min**; subsequent incremental builds <20 s.
-
----
 
 ## 📊 Benchmarks (July 2025)
 
@@ -52,17 +35,6 @@ python3 benchmarks/run.py --model 7b-int4 --device orin-nano --scenario single-s
 
 Logs and raw CSV are automatically saved in `results/`.
 
----
-
-## 🧰 Repositories
-
-| Repo | Description |
-|------|-------------|
-| [`core`](https://github.com/SingleChipLLM/core) | Inference engine + quant tools |
-| [`robotics-lm`](https://github.com/SingleChipLLM/robotics-lm) | ROS 2 nodes for manipulation |
-| [`autodrive-lm`](https://github.com/SingleChipLLM/autodrive-lm) | Lane-change planner w/ LLM |
-| [`cockpit-lm`](https://github.com/SingleChipLLM/cockpit-lm) | Voice assistant w/ local intent |
-| [`datasets`](https://github.com/SingleChipLLM/datasets) | Curated edge-AI corpora |
 
 ---
 
